@@ -101,3 +101,5 @@ console.log(buah);
 */
 
 ```
+
+nb : belum selesai, masih ada objek method dll di ig yang blm slseai di masukkan di catatan
