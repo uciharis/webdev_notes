@@ -103,3 +103,9 @@ console.log(buah);
 ```
 
 nb : belum selesai, masih ada objek method dll di ig yang blm slseai di masukkan di catatan
+
+## Arrow function
+
+Arrow functions biasanya dipakai untuk  callback functions or anonymous functions karena lebih enak dibaca.
+Arrow function lebih enak lagi saat dipake dengan higher-order functions seperti map, filter, or reduce.
+
