@@ -109,3 +109,31 @@ nb : belum selesai, masih ada objek method dll di ig yang blm slseai di masukkan
 Arrow functions biasanya dipakai untuk  callback functions or anonymous functions karena lebih enak dibaca.
 Arrow function lebih enak lagi saat dipake dengan higher-order functions seperti map, filter, or reduce.
 
+Sintaknya :
+
+> array.map(callback(currentValue, index, array), thisArg);
+
+Menerima tiga argumen:
+
+- currentValue: Elemen array yang sedang diproses.
+- index (opsional): Indeks elemen yang sedang diproses.
+- array (opsional): Array asli tempat metode map() dipanggil.
+
+dan thisArg (opsional) : nilai yg akan digunakan sbg this
+ketika menjalankan callback
+
+Arrow function adalah penyederhanaan dari fungsi biasa
+
+```javascript
+
+const numbers = [1, 2];
+
+// Using arrow function
+numbers.map(num => num * 2);
+
+// Instead of
+numbers.map(function (num) {
+  return num * 2;
+});
+
+```
