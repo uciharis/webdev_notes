@@ -135,5 +135,15 @@ numbers.map(num => num * 2);
 numbers.map(function (num) {
   return num * 2;
 });
+// output : [2,4]
+```
+contoh lain penggunaan array.map();
 
+```javascript
+
+const buahs = ['apel','jambu', 'nanas'];
+buahs.map(function (buah,index){
+  return `${index + 1}.${buah}`;
+})
+// output : [ '1.apel', '2.jambu', '3.nanas' ]
 ```
